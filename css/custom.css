@@ -1,0 +1,870 @@
+body:has(.aboutBanner-wrapper) {
+    background-image: url(../images/aboutUs-banner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pBlock-160 {
+    padding-block: 160px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.banner-heading h1 {
+    font-size: 138px;
+    font-weight: 400;
+    line-height: 150px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #D8AE43;
+    padding-left: 50px;
+    margin-bottom: 130px;
+}
+
+.banner-heading h1 span {
+    font-size: 208px;
+    font-weight: 400;
+    line-height: 200px;
+    letter-spacing: -0.01em;
+    margin-left: -50px;
+}
+
+section.aboutBanner-wrapper .custom-row {
+    justify-content: flex-start;
+}
+
+.aboutBanner-cover .custom-row {
+    margin-inline: -60px;
+}
+
+.aboutBanner-cover .custom-row .customCol-6 {
+    padding-inline: 60px;
+}
+
+.aboutBanner-box {
+    margin-top: -30%;
+    margin-inline: 10%;
+}
+
+.aboutBanner-box ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 75px 0px;
+    margin-inline: -25px;
+}
+
+.aboutBanner-box ul li {
+    width: 100%;
+    flex: 0 0 auto;
+    padding-inline: 25px;
+}
+
+.aboutBanner-box ul li:nth-child(2n) .aboutBanner-image {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.customCol-content {
+    width: 50%;
+    flex: 0 0 auto;
+    padding-inline: 60px;
+}
+
+.customCol-image {
+    width: 50%;
+    flex: 0 0 auto;
+    padding-inline: 60px;
+}
+
+section.aboutBanner-wrapper .wrapper-heading p+p {
+    margin-top: 60px;
+}
+
+.wrapper-heading {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+.mobView {
+    display: none;
+}
+
+
+/* upcomingEvent page css */
+.bannerWrapper-heading h1 {
+    font-size: 138px;
+    font-weight: 400;
+    line-height: 66px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
+    color: #D8AE43;
+    text-transform: capitalize;
+}
+
+.bannerWrapper-heading h1 span {
+    font-size: 270px;
+    display: inline-block;
+    line-height: 140px;
+    margin-left: -135px;
+}
+
+.bannerWrapper-cover {
+    background-image: url(../images/upcomingBanner.png);
+    height: 700px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 99;
+}
+
+.bannerWrapper-cover::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #d9d9d9cc;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    left: 0px;
+}
+
+.bannerCover-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.bannerCover-heading h2 {
+    font-size: 148px;
+    font-weight: 400;
+    line-height: 150px;
+    color: #173A18;
+    position: relative;
+}
+
+.bannerCover-heading h2 span {
+    font-size: 236px;
+    font-weight: 400;
+    line-height: 200px;
+    margin-inline: -6%;
+    color: #0E7011;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.bannerCover-heading h3 {
+    font-size: 43px;
+    font-weight: 400;
+    line-height: 66px;
+    letter-spacing: 0.66em;
+    color: #173A18;
+    margin-bottom: 0px;
+}
+
+.pBlock-100 {
+    padding-block: 100px;
+}
+
+.customCol-8 {
+    width: 66.6667%;
+    flex: 0 0 auto;
+    padding-inline: 15px;
+}
+
+.logoImages img {
+    height: 193px;
+}
+
+.logoImages {
+    margin-bottom: 5px;
+}
+
+.logo-content h2 {
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0.66em;
+    color: #BA9043;
+}
+
+.claridgesLogo-box {
+    margin-bottom: 145px;
+}
+
+.wrapper-heading p span {
+    font-weight: 500;
+}
+
+.claridgesWrapper-box .wrapper-heading p {
+    margin-bottom: 0px !important;
+}
+
+.claridgesWrapper-box .wrapper-heading p+p {
+    margin-top: 65px;
+}
+
+.claridgesWrapper-box .wrapper-heading h3 {
+    font-family: Gotham;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 0px;
+}
+
+.claridgesWrapper-boxBtn {
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+.claridgesWrapper-boxBtn .custom-btn {
+    padding: 22px 37px;
+    font-size: 32px;
+}
+
+@media screen and (max-width:1800px) {
+    .banner-heading h1 {
+        font-size: 125px;
+        line-height: 135px;
+        padding-left: 40px;
+        margin-bottom: 120px;
+    }
+
+    .banner-heading h1 span {
+        font-size: 180px;
+        line-height: 190px;
+        margin-left: -40px;
+    }
+
+    .aboutBanner-cover .custom-row {
+        margin-inline: -40px;
+    }
+
+    .customCol-content,
+    .customCol-image {
+        padding-inline: 40px;
+    }
+
+    .pBlock-160 {
+        padding-block: 140px;
+    }
+
+    /* Upcoming Page Css */
+    .bannerWrapper-heading h1 {
+        font-size: 115px;
+        line-height: 60px;
+    }
+
+    .bannerWrapper-heading h1 span {
+        font-size: 231px;
+        line-height: 118px;
+        margin-left: -129px;
+    }
+
+    .bannerWrapper-cover {
+        height: 600px;
+    }
+
+    .bannerCover-heading h2 {
+        font-size: 120px;
+        line-height: 120px;
+    }
+
+    .bannerCover-heading h2 span {
+        font-size: 190px;
+        line-height: 160px;
+        margin-inline: -6%;
+        margin-bottom: 15px;
+    }
+
+    .pBlock-100 {
+        padding-block: 80px;
+    }
+
+    .logo-content h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .claridgesLogo-box {
+        margin-bottom: 110px;
+    }
+
+    .claridgesWrapper-box .wrapper-heading p+p {
+        margin-top: 55px;
+    }
+
+    .claridgesWrapper-box .wrapper-heading h3 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 55px;
+    }
+
+    .claridgesWrapper-boxBtn {
+        margin-top: 100px;
+    }
+
+    .claridgesWrapper-boxBtn .custom-btn {
+        padding: 20px 30px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:1680px) {
+    .aboutBanner-image img {
+        height: 260px;
+    }
+
+    .aboutBanner-box ul {
+        gap: 20px 0px;
+        margin-inline: -20px;
+    }
+
+    .aboutBanner-box ul li {
+        padding-inline: 20px;
+    }
+
+    .aboutBanner-box {
+        margin-top: -30%;
+        margin-inline: 15%;
+    }
+
+    .pBlock-160 {
+        padding-block: 120px;
+    }
+
+    .banner-heading h1 {
+        font-size: 110px;
+        line-height: 120px;
+        padding-left: 30px;
+        margin-bottom: 100px;
+    }
+
+    .banner-heading h1 span {
+        font-size: 143px;
+        line-height: 150px;
+        margin-left: -30px;
+    }
+
+    section.aboutBanner-wrapper .wrapper-heading p+p {
+        margin-top: 30px;
+    }
+
+    /* upcomingEvent Page Css */
+    .pBlock-160 {
+        padding-block: 100px;
+    }
+
+    .bannerWrapper-heading h1 {
+        font-size: 95px;
+        line-height: 55px;
+    }
+
+    .bannerWrapper-heading h1 span {
+        font-size: 200px;
+        line-height: 100px;
+        margin-left: -129px;
+    }
+
+    .bannerCover-heading h2 {
+        font-size: 100px;
+        line-height: 100px;
+    }
+
+    .bannerCover-heading h2 span {
+        font-size: 165px;
+        line-height: 150px;
+        margin-inline: -6%;
+        margin-bottom: 15px;
+    }
+
+    .bannerCover-heading h3 {
+        font-size: 38px;
+        line-height: 60px;
+    }
+
+    .bannerWrapper-cover {
+        height: 500px;
+    }
+
+    .pBlock-100 {
+        padding-block: 60px;
+    }
+
+    .logoImages img {
+        height: 180px;
+    }
+
+    .logo-content h2 {
+        font-size: 34px;
+        line-height: 44px;
+    }
+
+    .claridgesLogo-box {
+        margin-bottom: 90px;
+    }
+
+    .claridgesWrapper-box .wrapper-heading p+p {
+        margin-top: 45px;
+    }
+
+    .claridgesWrapper-box .wrapper-heading h3 {
+        font-size: 25px;
+        line-height: 35px;
+        margin-top: 45px;
+    }
+
+    .claridgesWrapper-boxBtn {
+        margin-top: 80px;
+    }
+
+    .claridgesWrapper-boxBtn .custom-btn {
+        padding: 16px 25px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:1480px) {
+    .pBlock-160 {
+        padding-block: 90px;
+    }
+
+    .banner-heading h1 {
+        font-size: 90px;
+        line-height: 100px;
+        padding-left: 25px;
+        margin-bottom: 70px;
+    }
+
+    .banner-heading h1 span {
+        font-size: 110px;
+        line-height: 120px;
+        margin-left: -25px;
+    }
+
+    .aboutBanner-cover .custom-row {
+        margin-inline: -20px;
+    }
+
+    .customCol-content,
+    .customCol-image {
+        padding-inline: 20px;
+    }
+
+    .aboutBanner-box {
+        margin-top: -20%;
+        margin-inline: 10%;
+    }
+
+    /* Upcoming Event Css */
+    .pBlock-160 {
+        padding-block: 80px;
+    }
+
+    .bannerWrapper-heading h1 {
+        font-size: 85px;
+        line-height: 50px;
+    }
+
+    .bannerWrapper-heading h1 span {
+        font-size: 166px;
+        line-height: 93px;
+        margin-left: -83px;
+    }
+
+    .bannerCover-heading h2 {
+        font-size: 80px;
+        line-height: 80px;
+    }
+
+    .bannerCover-heading h2 span {
+        font-size: 140px;
+        line-height: 125px;
+        margin-inline: -6%;
+        margin-bottom: 15px;
+    }
+
+    .bannerCover-heading h3 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .bannerWrapper-cover {
+        height: 400px;
+    }
+
+    .pBlock-100 {
+        padding-block: 50px;
+    }
+
+    .logoImages img {
+        height: 170px;
+    }
+
+    .logo-content h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .claridgesLogo-box {
+        margin-bottom: 70px;
+    }
+
+    .claridgesWrapper-box .wrapper-heading p+p {
+        margin-top: 35px;
+    }
+
+    .claridgesWrapper-box .wrapper-heading h3 {
+        font-size: 23px;
+        line-height: 30px;
+        margin-top: 35px;
+    }
+
+    .claridgesWrapper-boxBtn {
+        margin-top: 60px;
+    }
+
+    .claridgesWrapper-boxBtn .custom-btn {
+        padding: 15px 26px;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .pBlock-160 {
+        padding-block: 70px;
+    }
+
+    .banner-heading h1 {
+        font-size: 80px;
+        line-height: 90px;
+        padding-left: 20px;
+        margin-bottom: 50px;
+    }
+
+    .banner-heading h1 span {
+        font-size: 88px;
+        line-height: 96px;
+        margin-left: -20px;
+    }
+
+    .aboutBanner-cover .custom-row {
+        margin-inline: -15px;
+    }
+
+    .customCol-content,
+    .customCol-image {
+        padding-inline: 15px;
+    }
+
+    .aboutBanner-box {
+        margin-top: -12%;
+        margin-inline: 5%;
+    }
+
+    /* Upcoming Event Css */
+    .bannerWrapper-heading h1 {
+        font-size: 70px;
+        line-height: 44px;
+    }
+
+    .bannerWrapper-heading h1 span {
+        font-size: 140px;
+        line-height: 70px;
+        margin-left: -83px;
+    }
+
+    .bannerWrapper-cover {
+        height: 350px;
+    }
+
+    .bannerCover-heading h2 {
+        font-size: 70px;
+        line-height: 70px;
+    }
+
+    .bannerCover-heading h2 span {
+        font-size: 120px;
+        line-height: 120px;
+        margin-inline: -6%;
+        margin-bottom: 15px;
+    }
+
+    .bannerCover-heading h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width:1024) {
+    .aboutBanner-image img {
+        height: 240px;
+    }
+
+    .pBlock-160 {
+        padding-block: 60px;
+    }
+
+    .banner-heading h1 {
+        font-size: 70px;
+        line-height: 80px;
+        padding-left: 20px;
+        margin-bottom: 40px;
+    }
+
+    .banner-heading h1 span {
+        font-size: 75px;
+        line-height: 90px;
+        margin-left: -20px;
+    }
+}
+
+@media screen and (max-width:992px) {
+
+    .banner-heading h1 {
+        font-size: 70px;
+        line-height: 80px;
+        padding-left: 20px;
+        margin-bottom: 40px;
+    }
+
+    .banner-heading h1 span {
+        font-size: 75px;
+        line-height: 80px;
+        margin-left: -20px;
+    }
+
+    .aboutBanner-box {
+        margin-top: -15%;
+        margin-inline: 0%;
+    }
+
+    section.aboutBanner-wrapper .wrapper-heading p+p {
+        margin-top: 20px;
+    }
+
+    /* Upcoming Event Css */
+    .bannerWrapper-heading h1 {
+        font-size: 60px;
+        line-height: 39px;
+    }
+
+    .bannerWrapper-heading h1 span {
+        font-size: 126px;
+        line-height: 70px;
+        margin-left: -83px;
+    }
+
+    .bannerWrapper-cover {
+        height: 300px;
+    }
+
+    .bannerCover-heading h2 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .bannerCover-heading h3 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .logo-content h2 {
+        font-size: 25px;
+        line-height: 33px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .pBlock-160 {
+        padding-block: 50px;
+    }
+    .customCol-8 {
+        width: 100%;
+        flex: 0 0 auto;
+        padding-inline: 15px;
+    }
+    .mobView {
+        display: block;
+    }
+
+    .desktopView {
+        display: none;
+    }
+
+    section.aboutBaanner-wrapper .banner-heading {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .customCol-content,
+    .customCol-image {
+        padding-inline: 15px;
+        width: 100%;
+    }
+
+    .aboutBanner-box {
+        margin-top: 50px;
+        margin-inline: 0%;
+    }
+
+    .aboutBanner-box ul li {
+        width: 33.33%;
+        flex: 0 0 auto;
+        padding-inline: 10px;
+    }
+
+    .aboutBanner-box ul {
+        gap: 20px 0px;
+        margin-inline: -15px;
+    }
+
+    .aboutBanner-image img {
+        height: auto;
+        width: 100%;
+    }
+
+    .banner-heading h1 {
+        font-size: 50px;
+        line-height: 50px;
+        padding-left: 0px;
+        margin-bottom: 40px;
+    }
+
+    .banner-heading h1 span {
+        font-size: 60px;
+        line-height: 45px;
+        margin-left: 0px;
+        display: flex;
+        align-items: end;
+        text-align: right;
+        justify-content: end;
+    }
+
+    .order-1 {
+        order: -1;
+    }
+
+    .custom-images {
+        border-radius: 20px;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .custom-images img {
+        width: 100%;
+    }
+
+    .aboutSection-sectionHeading>.custom-row {
+        gap: 30px 0px;
+    }
+
+    .mb-5 {
+        margin-bottom: 70px;
+    }
+
+}
+
+@media screen and (max-width:676px) {
+    .bannerWrapper-heading h1 {
+        font-size: 50px;
+        line-height: 30px;
+    }
+    .bannerWrapper-heading h1 span {
+        font-size: 100px;
+        line-height: 70px;
+        margin-left: -59px;
+    }
+    .claridgesWrapper-boxBtn .custom-btn {
+        padding: 12px 24px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .aboutSection-sectionHeading .customCol-6 {
+        width: 50%;
+    }
+
+    .custom-images {
+        border-radius: 20px;
+        overflow: hidden;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+
+    .custom-images img {
+        border-radius: 20px;
+    }
+
+    .aboutBanner-box ul li {
+        width: 50%;
+        flex: 0 0 auto;
+        padding-inline: 10px;
+    }
+}
+
+@media screen and (max-width:475px){
+    .bannerWrapper-heading h1 {
+        font-size: 43px;
+        line-height: 20px;
+    }
+    .bannerWrapper-heading h1 span {
+        font-size: 84px;
+        line-height: 54px;
+        margin-left: -43px;
+    }
+    .pBlock-100 {
+        padding-block: 40px;
+    }
+    .logo-content h2 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .claridgesLogo-box {
+        margin-bottom: 30px;
+    }
+    .claridgesWrapper-box .wrapper-heading p+p {
+        margin-top: 20px;
+    }
+    .claridgesWrapper-box .wrapper-heading h3 {
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 25px;
+    }
+    .claridgesWrapper-boxBtn {
+        margin-top: 40px;
+    }
+}
